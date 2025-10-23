@@ -3,8 +3,6 @@
 API RESTful simples para gerenciar uma lista de tarefas (To-Do List), desenvolvida em **Node.js** com **TypeScript**, seguindo o modelo **MVC**.  
 Os dados são armazenados em memória (arrays), apenas para fins de estudo.
 
----
-
 ## Funcionalidades
 
 - Criar, listar, atualizar e deletar tarefas
@@ -12,8 +10,6 @@ Os dados são armazenados em memória (arrays), apenas para fins de estudo.
 - Autenticação com **JWT** (JSON Web Token)
 - Validação de dados com **Zod**
 - Código organizado em pastas (MVC)
-
----
 
 ## Tecnologias Utilizadas
 
@@ -23,8 +19,6 @@ Os dados são armazenados em memória (arrays), apenas para fins de estudo.
 - **Zod** (validações)
 - **JWT** (autenticação)
 - **Bcrypt** (criptografia de senhas)
-
----
 
 ## Instalação e Configuração
 
@@ -79,10 +73,3 @@ GET	/tasks/:id	Busca tarefa pelo ID
 PUT	/tasks/:id	Atualiza uma tarefa
 DELETE	/tasks/:id	Deleta uma tarefa
 
-## Observações
-Dados armazenados apenas em arrays (sem banco de dados).
-
-Ideal para fins de estudo e prática de backend.
-
-Pode ser testada com Bruno, Postman ou Insomnia.
-```
