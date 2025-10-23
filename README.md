@@ -1,16 +1,3 @@
-# To-do List API (TypeScript, MVC)
-
-API RESTful em TypeScript usando Express, Zod, JWT e bcrypt. Dados em memória (arrays).
-
-Run in development:
-
-```powershell
-npm install
-npm run dev
-```
-
-Server runs on port 3001 by default.
-
 # To-Do List API (TypeScript + Express + MVC)
 
 API RESTful simples para gerenciar uma lista de tarefas (To-Do List), desenvolvida em **Node.js** com **TypeScript**, seguindo o modelo **MVC**.  
