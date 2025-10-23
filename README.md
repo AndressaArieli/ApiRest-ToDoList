@@ -42,27 +42,20 @@ Os dados são armazenados em memória (arrays), apenas para fins de estudo.
 ## Instalação e Configuração
 
 1️⃣ Clonar o projeto
-
-```bash
 git clone <url-do-repo>
 cd todo-api-ts
+
 2️⃣ Instalar dependências
-bash
-Copiar código
 npm install
+
 3️⃣ Dependências utilizadas
-bash
-Copiar código
 npm install express zod jsonwebtoken bcrypt
 npm install -D typescript ts-node-dev @types/express @types/jsonwebtoken @types/bcrypt
+
 4️⃣ Configurar o TypeScript
-bash
-Copiar código
 npx tsc --init
 Certifique-se de que o arquivo tsconfig.json tem as opções:
-
 json
-Copiar código
 {
   "compilerOptions": {
     "target": "ES2020",
@@ -73,26 +66,20 @@ Copiar código
     "esModuleInterop": true
   }
 }
-▶️ Como Rodar o Projeto
-Servidor configurado para rodar localmente em:
 
-arduino
-Copiar código
+## Como Rodar o Projeto
+Servidor configurado para rodar localmente em:
 http://localhost:3001
+
 Modo desenvolvimento
-bash
-Copiar código
 npm run dev
+
 Modo compilado
-bash
-Copiar código
 npm run build
 npm start
-🔐 Autenticação
-Para acessar as rotas de tarefas, é necessário enviar o token JWT no header:
 
-makefile
-Copiar código
+## Autenticação
+Para acessar as rotas de tarefas, é necessário enviar o token JWT no header:
 Authorization: Bearer SEU_TOKEN_AQUI
 
 ## Endpoints Principais
@@ -105,7 +92,7 @@ GET	/tasks/:id	Busca tarefa pelo ID
 PUT	/tasks/:id	Atualiza uma tarefa
 DELETE	/tasks/:id	Deleta uma tarefa
 
-🧠 Observações
+## Observações
 Dados armazenados apenas em arrays (sem banco de dados).
 
 Ideal para fins de estudo e prática de backend.
